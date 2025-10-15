@@ -44,6 +44,11 @@ const userSchema = new Schema(
         },
         refreshToken: {
             type: String
+        },
+        description : {
+            type : String,
+            default : "Hii coders"
+
         }
 
     },
