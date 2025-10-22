@@ -514,7 +514,7 @@ const getcurrentuserchannel = asyncHandler1(async (req, res) => {
 
   if (!channel?.length) {
     throw new Apierror(404, "NOT FOUND")
-  }
+  } 
 
   console.log(channel);
   
